@@ -42,6 +42,7 @@ end
 class Attach < Sequel::Model(:attachs)
 	many_to_one :email
 end
+=begin
 @a = Email.new do |x|
 	x.subject = "hello"
 	x.body = "OOOOOQqqqqqqqqqqQQQQQQOoKjJHbnHggffgn"
@@ -71,4 +72,4 @@ end
 	z.save
 	@list1.save
 end
-
+=end
